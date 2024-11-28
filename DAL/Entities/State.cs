@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
 
-namespace ShoppingAPI_Jueves_2023II.DAL.Entities
+namespace ShoppingAPI_Jueves_2024II.DAL.Entities
 {
     public class State : AuditBase
     {

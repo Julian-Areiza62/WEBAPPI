@@ -1,6 +1,6 @@
-﻿using ShoppingAPI_Jueves_2023II.DAL.Entities;
+﻿using ShoppingAPI_Jueves_2024II.DAL.Entities;
 
-namespace ShoppingAPI_Jueves_2023II.Domain.Interfaces
+namespace ShoppingAPI_Jueves_2024II.Domain.Interfaces
 {
     public interface IStateService
     {

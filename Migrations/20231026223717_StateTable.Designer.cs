@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ShoppingAPI_Jueves_2023II.DAL;
+using ShoppingAPI_Jueves_2024II.DAL;
 
 #nullable disable
 
-namespace ShoppingAPI_Jueves_2023II.Migrations
+namespace ShoppingAPI_Jueves_2024II.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
     [Migration("20231026223717_StateTable")]
@@ -24,7 +24,7 @@ namespace ShoppingAPI_Jueves_2023II.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("ShoppingAPI_Jueves_2023II.DAL.Entities.Country", b =>
+            modelBuilder.Entity("ShoppingAPI_Jueves_2024II.DAL.Entities.Country", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -49,7 +49,7 @@ namespace ShoppingAPI_Jueves_2023II.Migrations
                     b.ToTable("Countries");
                 });
 
-            modelBuilder.Entity("ShoppingAPI_Jueves_2023II.DAL.Entities.State", b =>
+            modelBuilder.Entity("ShoppingAPI_Jueves_2024II.DAL.Entities.State", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -79,9 +79,9 @@ namespace ShoppingAPI_Jueves_2023II.Migrations
                     b.ToTable("States");
                 });
 
-            modelBuilder.Entity("ShoppingAPI_Jueves_2023II.DAL.Entities.State", b =>
+            modelBuilder.Entity("ShoppingAPI_Jueves_2024II.DAL.Entities.State", b =>
                 {
-                    b.HasOne("ShoppingAPI_Jueves_2023II.DAL.Entities.Country", "Country")
+                    b.HasOne("ShoppingAPI_Jueves_2024II.DAL.Entities.Country", "Country")
                         .WithMany("States")
                         .HasForeignKey("CountryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -90,7 +90,7 @@ namespace ShoppingAPI_Jueves_2023II.Migrations
                     b.Navigation("Country");
                 });
 
-            modelBuilder.Entity("ShoppingAPI_Jueves_2023II.DAL.Entities.Country", b =>
+            modelBuilder.Entity("ShoppingAPI_Jueves_2024II.DAL.Entities.Country", b =>
                 {
                     b.Navigation("States");
                 });

@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ShoppingAPI_Jueves_2023II.DAL;
-using ShoppingAPI_Jueves_2023II.DAL.Entities;
-using ShoppingAPI_Jueves_2023II.Domain.Interfaces;
+using ShoppingAPI_Jueves_2024II.DAL;
+using ShoppingAPI_Jueves_2024II.DAL.Entities;
+using ShoppingAPI_Jueves_2024II.Domain.Interfaces;
 
-namespace ShoppingAPI_Jueves_2023II.Domain.Services
+namespace ShoppingAPI_Jueves_2024II.Domain.Services
 {
     public class CountryService : ICountryService
     {

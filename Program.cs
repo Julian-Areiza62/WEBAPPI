@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ShoppingAPI_Jueves_2023II.DAL;
-using ShoppingAPI_Jueves_2023II.Domain.Interfaces;
-using ShoppingAPI_Jueves_2023II.Domain.Services;
+using ShoppingAPI_Jueves_2024II.DAL;
+using ShoppingAPI_Jueves_2024II.Domain.Interfaces;
+using ShoppingAPI_Jueves_2024II.Domain.Services;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);

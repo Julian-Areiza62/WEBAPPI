@@ -1,8 +1,8 @@
-﻿using ShoppingAPI_Jueves_2023II.DAL.Entities;
-using ShoppingAPI_Jueves_2023II.Domain.Interfaces;
+﻿using ShoppingAPI_Jueves_2024II.DAL.Entities;
+using ShoppingAPI_Jueves_2024II.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ShoppingAPI_Jueves_2023II.Controllers
+namespace ShoppingAPI_Jueves_2024II.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

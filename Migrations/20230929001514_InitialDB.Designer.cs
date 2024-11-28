@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ShoppingAPI_Jueves_2023II.DAL;
+using ShoppingAPI_Jueves_2024II.DAL;
 
 #nullable disable
 
-namespace ShoppingAPI_Jueves_2023II.Migrations
+namespace ShoppingAPI_Jueves_2024II.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
     [Migration("20230929001514_InitialDB")]
@@ -24,7 +24,7 @@ namespace ShoppingAPI_Jueves_2023II.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("ShoppingAPI_Jueves_2023II.DAL.Entities.Country", b =>
+            modelBuilder.Entity("ShoppingAPI_Jueves_2024II.DAL.Entities.Country", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

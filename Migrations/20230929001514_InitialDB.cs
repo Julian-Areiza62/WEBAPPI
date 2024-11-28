@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ShoppingAPI_Jueves_2023II.Migrations
+namespace ShoppingAPI_Jueves_2024II.Migrations
 {
     public partial class InitialDB : Migration
     {
