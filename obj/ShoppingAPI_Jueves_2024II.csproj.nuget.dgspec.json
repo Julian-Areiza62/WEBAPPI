@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\Source\\Repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj": {}
+    "C:\\Users\\julia\\source\\repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\Source\\Repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj": {
+    "C:\\Users\\julia\\source\\repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\Source\\Repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\source\\repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj",
         "projectName": "ShoppingAPI_Jueves_2024II",
-        "projectPath": "C:\\Users\\julia\\Source\\Repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj",
+        "projectPath": "C:\\Users\\julia\\source\\repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\Source\\Repos\\WEBAPPI\\obj\\",
+        "outputPath": "C:\\Users\\julia\\source\\repos\\WEBAPPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

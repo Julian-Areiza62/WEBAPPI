@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "azBRdKBSd5M=",
+  "dgSpecHash": "Kwt2hn1gbgI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\julia\\Source\\Repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj",
+  "projectFilePath": "C:\\Users\\julia\\source\\repos\\WEBAPPI\\ShoppingAPI_Jueves_2024II.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
